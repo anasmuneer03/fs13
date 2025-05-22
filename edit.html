@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+   <main>
+      <div class="text-danger"></div>
+    <section class="create-user">
+      <div class="container">
+        <h1>Edit User</h1>
+        <form class="create-form">
+          <input
+            class="user-name"
+            name="userName"
+            type="text"
+          />
+          <input
+          class="user-email"
+            name="email"
+            type="email"
+            disabled
+          />
+          <input
+          class="user-password"
+            name="password"
+            type="password"
+            disabled
+          />
+          <input
+          class="user-phone"
+            name="phone"
+            type="text"
+            disabled
+          />
+          <button type="submit">Update</button>
+        </form>
+      </div>
+    </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./edit.js"></script>
+</body>
+</html>
